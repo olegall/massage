@@ -1,0 +1,166 @@
+﻿<!DOCTYPE HTML>
+
+<html>
+<head>
+        <title>Andrey Aleynikov</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<link href="css/reset.css" type="text/css" rel="stylesheet">
+        <link href="css/styles.css" type="text/css" rel="stylesheet">
+		<script type="text/javascript" src="js/jquery-1.4.4.js"></script>
+		<script type="text/javascript">
+				$(document).ready(function() {
+					$("#a_about").click(function() {
+						$('body,html').animate({scrollTop: 0},1000);
+						return false;
+					});	
+					$("#a_services").click(function() {
+						$('body,html').animate({scrollTop: $('#about').height() + 170},1000);
+						return false;
+					});					
+					$("#a_massage").click(function() {
+						$('body,html').animate({scrollTop: $('#about').height() + $('#services').height() + 170*2},1000);
+						return false;
+					});
+					$("#a_contacts").click(function() {
+						$('body,html').animate({scrollTop: $('#about').height() + $('#services').height() + $('#massage').height() + 170*3},1000);
+						return false;
+					});					
+				});
+		</script>
+</head>
+<body>
+		<div id="fixed_stripe">
+				<header id="fixed_stripe_center">
+						<a id="a_logo" href="#">Andrey Aleynikov<br>C.M.T, PhD</a>
+						<menu id="menu">
+								<ul>
+									<li><a href="#" id="a_about">about</a></li>
+									<li><a href="#" id="a_services">services</a></li>
+									<li><a href="#" id="a_massage">wellness massage</a></li>
+									<li><a href="#" id="a_contacts">contacts</a></li>
+								</ul>
+						</menu>						
+				</header>
+		</div>
+		<!--<br><br><br><br><br><br>-->
+		<div id="empty_stripe"></div>
+		<div id="about">
+			<h1>About</h1>
+			<h2>Providing massage therapy for maximum wellness</h2>
+			<p id="p_left">
+			A. Aleynikov, certified massage therapist, has more than 
+			10 years of experience in massage. His goal is using different
+			methods and techniques to find the most efficient and helpful
+			approach to improve body and mind in variety health problems. 
+			
+			<br><br>
+			This kind of application of massage techniques is able to 
+			improve condition of tissues of bones, muscles and joints 
+			such as vertebrae, hips, knees, ankles, shoulders and other 
+			joints through increasing blood and lymph circulation 
+			as well as eliminate toxins from tissues.
+			Massage therapy focuses on release musculoskeleton pain and classical
+			deep tissue massage for relaxation
+			<br><br>
+			</p>
+			<img id="img_photo" src="img/photo.jpg">
+			<div class="clear"></div>
+			<br>
+			<p id="p_usual">
+			His long term practice released that this way is useful when people 
+			suffer with arthritis, low back pain, sciatica, joint pain and stiffness, 
+			cramps into legs as well as sore legs even planter fasciitis and 
+			food spurs, chronic intoxication. A massage treatment can relieve 
+			tension in the body, calm the mind and nourish the soul, bringing 
+			healing on many different levels simultaneously.
+			</p>
+			<br><br><br><br>
+			<h2>Career and education</h2>
+			<p id="p_usual">
+			A. Aleynikov has a strong background in both Eastern and Western 
+			medicine as well as massage. He was graduated as a medical doctor 
+			from the 1 Moscow Medical University and has PhD degree in 
+			classical medicine.
+			<br>
+			In 1999 A. Aleynikov was graduated from Su-Jok Academy of Eastern medicine in Moscow, Russia
+			<br>
+			Beeing in Michigan he was graduated from Michigan Institute of Therapeutic Massage 
+			and Applied Science and started career as massage therapist in 2003. Membership in 
+			American Massage Therapy Association since 2011. 
+			</p>
+			<!-- a!!! -->
+			<a id="a_amta_logo" href="http://www.amtamassage.org/index.html"><img id="img_amta_logo" src="img/amta_logo.png"></a>
+			<!--<img id="img_sunset" src="img/sunset.jpg">-->
+			<!--<div class="clear"></div>-->
+		</div>
+
+
+		<div id="section_wide">
+				<div id="services">
+						<h1>Services</h1>
+						<p id="p_usual">
+								Therapeutic  massage therapy doing by A. Aleynikov CMT. P’h D is a gental 
+								multitechnique approach based on traditional western and Eastern knowledge about massage&body work
+								<br><br>
+								- Therapeutic massage to release musculoskeleton pain and disfunction, tranquillize the mind
+								<br>
+								- Classical deep tissue massage for relaxation
+								<br>
+								- Body work with hot applications, vibration and stone therapy to improve blood and liquid circulation
+								<br><br>
+								Those procedures are highly efficient and helpful for the next sickness conditions:
+						</p>
+						<img id="img_bodies" src="img/bodies.png">
+						<a id="a_amta_logo" href="http://www.amtamassage.org/index.html"><img id="img_amta_logo" src="img/amta_logo.png"></a>
+						<!--<img id="img_sunset" src="img/landscape.jpg">
+						<div class="clear"></div>-->
+				</div>	
+		</div>
+		<div id="massage">
+				<h1>Wellness massage</h1>
+				<p id="p_usual">
+				There are many ways how to take care about body. 
+				We are using drugs, surgery, radiation and so on. 
+				More and more sophisticated methods appear recently but very often we forget about simple methods, 
+				tested by centuries which could solve our problems or could be efficient support for basic treatment. 
+				These methods such as massage don’t have side effect, providing wellness for the body calm and 
+				soothing your mind as well.
+				A. Aleynikov is able to offer his clients simple and efficient methods of professional massage.
+				Of professional massage therapy that could be essential part of your health care plan. 
+				</p>
+				<a id="a_amta_logo" href="http://www.amtamassage.org/index.html"><img id="img_amta_logo" src="img/amta_logo.png"></a>
+				<!--<img id="img_sunset" src="img/pier.jpg">
+				<div class="clear"></div>-->
+		</div>
+		<div id="section_wide">
+				<div id="contacts">
+					<h1>Contact information</h1>
+					<p id="p_big">Services are located in Grand Rapids, Michigan</p>
+					<br><br><br>
+					<p id="p_gray">
+						Call at &nbsp &nbsp &nbsp <span>(616) 550 6819</span> &nbsp &nbsp &nbsp or &nbsp &nbsp &nbsp <span>(616) 776 5253</span><br><br>
+						email at &nbsp &nbsp <span>andreywestmich@gmail.com<span>
+					</p>
+					<br><br>
+					<p id="p_big">or use the form to send a complaint immediately:</p>
+					<br><br>
+					
+					<div id="form_left">
+							<p id="p_big">
+								Your name: <br><br>
+								Your email or phone number:<br><br><br>
+								Your complaint:
+							</p>
+					</div>
+					<div id="form_right">
+							<input id="input_name" type="text"><br>
+							<input id="input_email_or_phone" type="text"><br>
+							<textarea id="textarea_complaint" rows="10" cols="45" name="text"></textarea><br>
+							<input id="input_button" type="image" src="img/button.jpg">
+					</div>
+					<div class="clear"></div>
+					<a id="a_amta_logo" href="http://www.amtamassage.org/index.html"><img id="img_amta_logo" src="img/amta_logo.png"></a>
+				</div>
+		</div>
+	</body>
+</html>
